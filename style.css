@@ -1,0 +1,70 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Notepad Container */
+.notepad-container {
+    width: 600px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #333333;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Textarea Styling */
+textarea {
+    width: 100%;
+    height: 400px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Courier New', Courier, monospace;
+    background: repeating-linear-gradient(
+        #ffffff, 
+        #ffffff 24px, 
+        #ececec 25px
+    );
+    outline: none;
+    resize: none;
+    box-sizing: border-box;
+}
+
+textarea::placeholder {
+    color: #aaa;
+}
+
+/* Save Button Styling */
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #333333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555555;
+}
